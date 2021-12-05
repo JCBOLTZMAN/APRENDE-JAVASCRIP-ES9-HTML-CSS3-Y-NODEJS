@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(180, 175, 171);
+    color: rgb(143, 10, 10);
+}
+#parrafo{
+    color: rgb(82, 58, 189);
+}
+
+.etiqueta{
+    color: darkslategrey;
+}
+.parrafo{
+    color: brown;
+    background-color: cornflowerblue;
+}
+.caja{
+    background-color: rgb(157, 179, 60);
+    margin: 80px;
+    padding: 50px;
+    border-style:solid;
+    border-width: 8px;
+    border-color: #000;
+    border-left: 6px solid #afa;
+    border-right: 8px solid #026;
+    border-radius: 8px;
+    height: 100px;
+    width: 100px;
+    color: #000;
+}

@@ -36,12 +36,89 @@
                <input type="number"><br /> <!--pone un cuadro de texto donde solo acepta números-->
                <input type="password"><br /><!--Pone un cuadro de texto donde enmascara el texto y pone solo asteriscos-->
                <input type="text"><br /><!--Pone un cuadro de texto y acepta texto, es la caractistica por default-->
-               <input type="submit"><br /><!--Pone el boton de enviar-->
+               <input type="submit" value="Boton con input"><br /><!--Pone el boton de enviar-->
                <input type="search"><br /><!--pone un cuadro de texto para realizar busquedas-->
                <input type="tel"><br /><!--pone un cuadro de texto para poner el número telefónico-->
-               <textarea></textarea><br />
-           </form>
-
+               <textarea></textarea><br /><!--Pone un cuadro de texto mas grande y que se puede modificar su tamaño en la web--><br />
+               <button>boton con button</button><!--Agrega un boton-->
+               <!--La etiqueta select genera un cuadro de lista, con los valores que le asignemos en opciones-->
+               <select>
+                <option value="valor 1">opción 1</option>
+                <option value="valor 2">opción 2</option>
+                <option value="valor 3">opción 3</option>
+                <option value="valor 4">opción 4</option>
+               </select>
+               <!--El texto que se ponga entre las etiquetas option será lo que se muestre en cada opción, pero el valor que se envía al servidor es lo que se encuentra en la propiedad value-->
+            </form>
         </P>
+        <hr />
+        <p>
+            Ahora veremos las etiquetas de Labes, placeholderfield set
+            <form>
+                <fieldset>
+                    <legend>Datos personales</legend>
+                    <label>Edad</label>
+                    <input type="number" placeholder="Edad..."> <br/>
+                    <label>Contraseña</label>
+                    <input type="password" placeholder="Contraseña..."> <br/>
+                    <label>Nombre</label>
+                    <input type="text" placeholder="Nombre...."> <br/>
+                </fieldset>
+                <!--La etiqueta fieldset es para enceerrar las etiquetas que pusimos entre esta, y en la web se vea como un panel-->
+                <!--Las propiedades placeholder lo que hace es que muestra dentro del cuadro de texto el texto que se haya puesto entre comillas-->
+                <!--La etiqueta legend le pone una leyenda al panel que se genera con fieldset y se muestra en la web-->
+            </form>
+        </p>
+        <hr />
+        <hr />
+        <hr />
+        <p>Ahora pondremos etiquetas para imagenes y links <br />
+            <img src="https://i.pinimg.com/564x/c8/f6/0f/c8f60f2ec8c7b3c34332f68fb66c1939.jpg"/><br/>
+            <a href="https://www.google.com">Link para ir a google</a>
+        </p>
+        <p>
+            pondremos listas ordenadas y no ordenadas <br/>
+            Lista no ordenada <br/>
+            <ul>
+                <li>Elemento 1</li>
+                <li>Elemento 2</li>
+                <li>Elemento 3</li>
+            </ul>
+            Lista ordenada <br />
+            <ol>
+                <li>Elemento 1</li>
+                <li>Elemento 2</li>
+                <li>Elemento 3</li>
+            </ol>
+        </p>
+        <p>
+            Pondremos una tabla en esta sección <br />
+            <table>
+                <thead>
+                    <tr>
+                        <th>Mes</th>
+                        <th>Ahorros</th>
+                    </tr>
+                </thead>
+                <!--thead es para definir los titulos de las columnas-->
+                <tbody>
+                    <tr>
+                        <td>Enero</td>
+                        <td>1000</td>
+                    </tr>
+                    <tr>
+                        <td>Febrero</td>
+                        <td>3000</td>
+                    </tr>
+                </tbody>
+                <!--tbody es para poner las celdas dentro de la tabla-->
+                <tfoot>
+                    <tr>
+                        <td>Suma</td>
+                        <td>4000</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </p>
     </body> 
 </html>

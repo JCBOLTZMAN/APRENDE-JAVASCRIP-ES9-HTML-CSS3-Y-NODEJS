@@ -1,0 +1,40 @@
+.bloque{
+    background-color: rgb(255, 255, 255);
+    border-style:outset;
+    border-radius: 1px;
+    border-width: 1px;
+    border-top: solid 0px;
+    border-color: #ccc;
+
+}
+body{
+    background-color: rgb(219, 211, 205);
+}
+.linea{
+    padding: 1px;
+    border-top: solid 0px #eee;
+}
+.contenido{
+    padding: 8px;
+    background-color: rgb(255, 255, 255);
+    border-style:solid;
+    border-radius: 1px;
+    border-width: 1px;
+    border-top: solid 0px;
+    border-color: #ccc;
+    border-left: 0px;
+    border-right: 0px;
+}
+.primario {
+    background-color: blue;
+    padding: 8px;
+    border: 1px;
+    color: cornsilk;
+}
+
+.secundario {
+    background-color: rgb(147, 147, 177);
+    padding: 8px;
+    border: 0px;
+    color: rgb(0, 0, 0);
+}

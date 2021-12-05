@@ -1,0 +1,16 @@
+body {
+    background-color: whitesmoke;
+}
+
+p {
+    width: 350px;
+    background-color: yellow;
+    margin:auto;
+    position: fixed;
+    right: 15px;
+    top: 5px;
+    bottom: 5px;
+}
+#invisible {
+    display: none;
+}

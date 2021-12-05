@@ -1,0 +1,13 @@
+body {
+    background-color: #eee;
+}
+
+#over {
+    width: 200px;
+    height: 200px;
+    overflow:auto;
+}
+
+img {
+    float: right;
+}
